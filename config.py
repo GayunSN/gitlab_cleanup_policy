@@ -5,8 +5,8 @@ PRIVATE_TOKEN = 'your_token'
 CLEANUP_POLICY = {
                     'enabled': 'true', 
                     'cadence': '1d',
-                    'keep_n': '',
+                    'keep_n': '1',
                     'older_than': '30d',
                     'name_regex': '.*',
-                    'name_regex_keep': '(?:v.+|master)'
+                    'name_regex_keep': '(?:v.+|master.*)'
                 }
